@@ -3178,4 +3178,7 @@ class Stats extends js.Object {
   var dom: HTMLElement = js.native
 }
 
+@js.native
+@JSGlobal("THREE.AxisHelper")
+class AxisHelper(size: Double = js.native) extends Object3D
 
